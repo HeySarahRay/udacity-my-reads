@@ -14,7 +14,7 @@ Once you've completed the above steps, a new browser window should automatically
 
 ![Home Page](img/home.PNG)
 
-By clicking the plus sign in the botton right, you will be brought to the search page. From there you can type in anything listed in the SEARCH_TERMS.md file.
+By clicking the + sign in the botton right, you will be brought to the search page. From there you can type in anything listed in the SEARCH_TERMS.md file.
 
 ![Search Page](img/search.PNG)
 
