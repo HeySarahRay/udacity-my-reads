@@ -12,11 +12,11 @@ To get started developing right away:
 
 Once you've completed the above steps, a new browser window should automatically open. Or you can visit: http://localhost:3000/ and it should appear similar to what you see here:
 
-![Home Page] (img/home.PNG)
+![Home Page](img/home.PNG)
 
 By clicking the plus sign in the botton right, you will be brought to the search page. From there you can type in anything listed in the SEARCH_TERMS.md file.
 
-![Search Page] (img/search.PNG)
+![Search Page](img/search.PNG)
 
 ## What You're Getting
 ```bash
@@ -99,4 +99,4 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ### Thank you for checking out my project!
-# my-library
+# my-library-app
