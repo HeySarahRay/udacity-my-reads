@@ -24,7 +24,7 @@ onLookUp = (e) => {
 				thoseBooks.forEach((book, index) => {
 					this.props.theseBooks.forEach((thisBook) => {
 						if(thisBook.id === book.id) {
-							book.shelf = thisBook.shelf
+							book.shelf = thoseBooks.shelf
 						}
 					})
 				})
