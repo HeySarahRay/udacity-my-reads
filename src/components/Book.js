@@ -10,7 +10,7 @@ const Book = ({ shelf, thumbnail, title, authors, reviseShelf }) => (
 	        <option value="currentlyReading">Currently Reading</option>
 		    <option value="wantToRead">Want to Read</option>
 	        <option value="read">Read</option>
-	        <option value="remove">Remove</option>
+	        <option value="none">Remove</option>
 	      </select>
 	    </div>
 		</div>
