@@ -10,6 +10,14 @@ To get started developing right away:
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
 
+Once you've completed the above steps, a new browser window should automatically open. Or you can visit: http://localhost:3000/ and it should appear similar to what you see here:
+
+![Home Page] (img/home.PNG)
+
+By clicking the plus sign in the botton right, you will be brought to the search page. From there you can type in anything listed in the SEARCH_TERMS.md file.
+
+![Search Page] (img/search.PNG)
+
 ## What You're Getting
 ```bash
 ├── CONTRIBUTING.md
