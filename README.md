@@ -98,4 +98,4 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-### Thank you for checking out my project!
+Thank you for checking out my project. I'd like to especially thank the wonderful classmates that helped me in this project - particularly my Indiana cohort, drunkenkismet, and Xavier. Your encouraging words and attempts to help me find solutions over and over mean the world to me!
