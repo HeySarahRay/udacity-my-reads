@@ -12,36 +12,36 @@ class BooksApp extends React.Component {
 
   componentDidMount() {
     BooksAPI.getAll()
-    .then((books) => {
+    .then(books => {
       this.setState({
         books
-      })
-    })
+      });
+    });
   }
 
   refreshShelf = (book, revisedShelf) => {
 	  BooksAPI.update(book, revisedShelf)
 	  .then((res) => {
-		  this.setState((prevState) => {
+		  this.setState(prevState => {
 			  const books = [...prevState.books];
-			  const bookPlace = books.findIndex((b) => b.id === book.id)
+			  const bookPlace = books.findIndex(b) => b.id === book.id);
 			  if (bookPlace  >= 0) {
 	        books[bookPlace].shelf = revisedShelf;
 	          } else {
 		      BooksAPI.get(book.id)
-		      .then((res) => {
+		      .then(res => {
 			    if (!res.error)
-				  books.push(res)
-	  })
+				  books.push(res);
+	  });
 }
 
 			  return {
 				  books
-			  }
-		  })
-	  })
-}
-
+			  };
+		  });
+	  });
+};
+{/*Formatting help from drunkenkismet*/}
   render() {
     return (
       <div className="app">
@@ -49,12 +49,12 @@ class BooksApp extends React.Component {
           <Library books = {this.state.books} reviseShelf = {this.refreshShelf} />
         )} />
         <Route path = '/search' render={({ history }) => (
-          <Search theseBooks = {this.state.books} reviseShelf = {this.refreshShelf} />
+          <Search theseBooks={this.state.books} reviseShelf={this.refreshShelf} />
         )}
         />
         </div>
-    )
+    );
   }
 }
 
-export default BooksApp
+export default BooksApp;
